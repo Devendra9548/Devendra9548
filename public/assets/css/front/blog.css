@@ -1,0 +1,46 @@
+.gbluebtn {
+  background: #18704c;
+  color: #fff;
+  border-color: #18704c;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.gbluebtn:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.main-blog h2 {
+  margin-bottom: 20px !important;
+}
+.main-blog .date {
+  font-size: 16px !important;
+  margin: 15px 0px !important;
+}
+.main-blog p {
+  color: #383636;
+}
+.main-blog .title {
+  font-size: 24px !important;
+  color: #383636;
+}
+.main-blog .other-blog .date {
+  margin-top: 0px !important;
+}
+
+.imgcard {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.imgcard img {
+  cursor: pointer;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: all 1s linear;
+}
+.imgcard img:hover {
+  transform: scale(1.1);
+  transition: all 1s linear;
+}/*# sourceMappingURL=blog.css.map */

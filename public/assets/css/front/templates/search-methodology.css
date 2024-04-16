@@ -1,0 +1,123 @@
+.gbluebtn {
+  background: #18704c;
+  color: #fff;
+  border-color: #18704c;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.gbluebtn:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.fourth-section {
+  position: relative;
+}
+.fourth-section .row-img {
+  background-image: url(/assets/imgs/6143197_3161025.jpg);
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  opacity: 0.05;
+  top: 0px;
+  left: 0px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.fourth-section img {
+  width: 32%;
+  background: rgba(255, 255, 255, 0.1803921569);
+  border-radius: 100px;
+  padding: 15px;
+}
+.fourth-section .slide h3 {
+  font-size: 26px !important;
+  margin-bottom: 15px;
+}
+.fourth-section .slide p {
+  color: #e7dfdf !important;
+}
+.fourth-section .prev-arrow {
+  position: absolute;
+  bottom: -30%;
+  top: auto;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+  left: 44.7%;
+}
+.fourth-section .next-arrow {
+  position: absolute;
+  bottom: -30%;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+  left: 51%;
+}
+.fourth-section .prev-arrow:hover, .fourth-section .next-arrow:hover {
+  background: #fff;
+  color: #000;
+}
+
+.other-services-section button:hover {
+  background: #18704c;
+  color: #fff;
+  border-color: #18704c;
+}
+.other-services-section .prev-arrow {
+  position: absolute;
+  top: -23%;
+  right: 10%;
+}
+.other-services-section .next-arrow {
+  position: absolute;
+  top: -23%;
+  right: 3%;
+}
+.other-services-section h3 {
+  font-size: 26px !important;
+}
+
+.faqs .accordion-item {
+  margin-bottom: 15px;
+  border: 0px !important;
+  overflow: hidden;
+  border-radius: 10px !important;
+}
+.faqs .accordion-item button {
+  background-color: #f5f4f5;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px !important;
+  border-radius: 10px 10px 10px 10px;
+  padding: 28px 20px 28px 28px;
+  border: none !important;
+}
+
+.subheading {
+  color: #83B348 !important;
+  font-weight: 600 !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff !important;
+  background-color: #83b348 !important;
+}
+
+.accordion-body {
+  background: #f5f4f5;
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.accordion-body ul {
+  margin-left: 20px !important;
+}/*# sourceMappingURL=search-methodology.css.map */

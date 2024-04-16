@@ -1,0 +1,47 @@
+@import 'global'
+@import 'templates/bredcrumps'
+
+.submitcv
+    input,select
+        padding: 14px 15px !important
+        border: 1px solid #000
+        border-radius: 10px
+        background: #f9f9f9
+    input::file-selector-button
+        font-weight: bold
+        // color: #fff
+        padding: 0.5em
+        border: thin solid grey
+        border-radius: 3px
+        // background: transparent
+        // border-color: transparent
+
+    input[type="file"]
+        background: #fff !important
+        color: #fff !important
+        padding-left: 45px
+        padding-top: 12px
+        padding-bottom: 12px
+        border: 1px solid #000
+        overflow: hidden
+        border-radius: 10px
+        position: relative
+        z-index: 7
+        opacity: 0
+
+    .filelabel
+        background: #f9f9f9
+        color: #000000
+        padding: 14px 15px
+        position: absolute
+        top: 1px
+        border-radius: 10px
+        left: 12px
+        z-index: 5
+        width: 94.5%
+        border: 1px solid #000
+
+    .gbluebtn
+        border:1px solid $webcolor
+
+

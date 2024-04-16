@@ -1,0 +1,67 @@
+h2 {
+  font-size: 45px !important;
+  font-weight: bold !important;
+}
+
+#contactform input, #contactform select, #contactform textarea {
+  background: transparent !important;
+  border: 1px solid rgba(0, 0, 0, 0.5333333333) !important;
+  padding: 15px 16px !important;
+  font-size: 18px !important;
+  border-radius: 10px !important;
+  color: #656363 !important;
+}
+#contactform button {
+  font-size: 18px !important;
+  border: 1px solid rgba(0, 0, 0, 0.5333333333) !important;
+  border-radius: 10px !important;
+  padding: 12px 25px !important;
+}
+
+.contact-info .iconbox img {
+  background: rgba(0, 138, 173, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+.contact-info .iconbox p {
+  margin-top: 5px !important;
+  font-size: 20px;
+  margin-bottom: 0px !important;
+  color: #383636;
+  font-weight: 500;
+}
+.contact-info .iconbox a {
+  font-size: 24px;
+  margin: 0px !important;
+  color: #1d1c1c;
+  font-weight: 500;
+}
+.contact-info .social-icons {
+  margin-right: 15px;
+  margin-top: 15px !important;
+}
+.contact-info .social-icons a {
+  color: #fff !important;
+  margin-right: 15px;
+  border-radius: 100px;
+  display: inline-block;
+}
+.contact-info .social-icons a i {
+  font-size: 28px;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  text-align: center;
+}
+.contact-info .social-icons a:nth-child(1) {
+  background: #007bb5;
+}
+.contact-info .social-icons a:nth-child(2) {
+  background: #39579b;
+}
+.contact-info .social-icons a:nth-child(3) {
+  background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+}
+.contact-info .social-icons a:nth-child(4) {
+  background: #000;
+}/*# sourceMappingURL=contact.css.map */

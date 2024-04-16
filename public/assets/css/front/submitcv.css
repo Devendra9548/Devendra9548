@@ -1,0 +1,85 @@
+.gbluebtn {
+  background: #18704c;
+  color: #fff;
+  border-color: #18704c;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.gbluebtn:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.gbluebtn {
+  background: #18704c;
+  color: #fff;
+  border-color: #18704c;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.gbluebtn:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.bredcrups-banner {
+  position: relative;
+  background: #18704c;
+  background: linear-gradient(223deg, #3ead92, #9bcc57) !important;
+}
+.bredcrups-banner .row-img {
+  background-image: url(/assets/imgs/12980760_5096154.jpg);
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  opacity: 0.1;
+  top: 0px;
+  left: 0px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.submitcv input, .submitcv select {
+  padding: 14px 15px !important;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+.submitcv input::file-selector-button {
+  font-weight: bold;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+.submitcv input[type=file] {
+  background: #fff !important;
+  color: #fff !important;
+  padding-left: 45px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #000;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  z-index: 7;
+  opacity: 0;
+}
+.submitcv .filelabel {
+  background: #f9f9f9;
+  color: #000000;
+  padding: 14px 15px;
+  position: absolute;
+  top: 1px;
+  border-radius: 10px;
+  left: 12px;
+  z-index: 5;
+  width: 94.5%;
+  border: 1px solid #000;
+}
+.submitcv .gbluebtn {
+  border: 1px solid #18704c;
+}/*# sourceMappingURL=submitcv.css.map */

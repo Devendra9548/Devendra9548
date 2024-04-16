@@ -1,0 +1,172 @@
+$bgcolor: lightblue
+$textcolor: #000
+$fontfamily: "Roboto", sans-serif
+$rctbtn-bg: #18704c
+$rctbtn-color: #fff
+$rctbtn-border: #000
+$rctbtn-hvbg: #fff
+$rctbtn-hvcolor: #000
+$rctbtn-hvborder: #000
+$pcolor: #383636
+$headcolor: #18704c
+$webcolor: #83B348
+
+/* width */
+::-webkit-scrollbar
+    width: 7px
+
+/* Track */
+::-webkit-scrollbar-track
+    background: #fff
+
+/* Handle */
+::-webkit-scrollbar-thumb
+    background: $headcolor
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+    background: #555
+
+p
+    color: $pcolor!important
+    font-size: 20px !important
+    margin-bottom: 0px !important
+
+h2
+    font-size: 45px!important
+    font-weight: bold!important
+    color: $pcolor!important
+section
+    padding: 58px 10px
+
+.btn-custom
+    background: #18704c!important
+    color: #fff!important
+    font-size: 18px!important
+    border: 1px solid #18704c!important
+    border-radius: 100px!important
+    padding: 6px 5px!important
+    padding-left: 20px!important
+    display: block!important
+    i
+        border: 2px solid #fff!important
+        border-radius: 100px!important
+        padding: 12px!important
+        width: 43px!important
+        height: 43px!important
+        margin-left: 5px!important
+        background: #fff!important
+        color: #000!important
+
+a,p,h1,h2,h3,h4,h5,h6,div,span,ul,li
+    font-family: $fontfamily
+
+a
+    text-decoration: none
+    font-size: 16px
+
+ul
+    margin: 0px
+    padding: 0px
+
+header
+    border-bottom: 1px solid #d4d4d4
+    padding: 10px 0px
+
+.center-head
+    display: flex
+    justify-content: left
+    align-items: center
+    ul
+        li
+            display: inline-block
+            i
+                position: relative
+                top: 1px
+                padding-left: 5px
+                color: #9d9d9d
+
+        li:not(:last-child)
+            margin-right: 35px
+
+        a
+            font-size: 18px
+            color: $textcolor
+            padding: 8px 0px
+
+    .sub-menu
+        .childmenus
+            display: none
+            position: absolute
+            width: 160px
+            margin-left: auto
+            margin-right: auto
+            padding-top: 20px
+            left: -10px
+        ul
+            border: 1px solid #80808033
+            border-top: 3px solid #18704c
+            background: #ffff
+            li
+                a
+                    display: block
+                    width: 160px
+                    padding: 12px 14px
+                &:hover
+                    background: #e3e6e6
+        &:hover .childmenus
+            display: block
+
+.end-head
+    display: flex
+    justify-content: end
+    align-items: center
+
+    .sub-menu
+        .childmenus
+            display: none
+            position: absolute
+            width: 160px
+            margin-left: auto
+            margin-right: auto
+            padding-top: 20px
+            left: -10px
+        ul
+            border: 1px solid #80808033
+            border-top: 3px solid #18704c
+            background: #ffff
+            li
+                a
+                    display: block
+                    width: 160px
+                    padding: 12px 14px
+                &:hover
+                    background: #e3e6e6
+        &:hover .childmenus
+            display: block
+
+    ul
+        li
+            display: inline-block
+            i
+                position: relative
+                top: 1px
+                padding-left: 5px
+                color: #ffffff
+
+        li:not(:last-child)
+            margin-right: 20px
+
+        a
+            font-size: 18px
+            color: $textcolor
+
+        .rct-btn
+            background: $rctbtn-bg
+            color: $rctbtn-color
+            padding: 13px 15px
+            border-radius: 5px
+
+.subheading
+    font-size: 26px !important
+    font-weight: 600 !important

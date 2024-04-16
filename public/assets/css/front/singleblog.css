@@ -1,0 +1,46 @@
+.gbluebtn {
+  background: #18704c;
+  color: #fff;
+  border-color: #18704c;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.gbluebtn:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.single-blog a {
+  color: #383636 !important;
+}
+.single-blog li {
+  font-size: 18px !important;
+}
+.single-blog p {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  margin-bottom: 15px !important;
+}
+.single-blog .comment {
+  margin-bottom: 30px !important;
+}
+.single-blog .comment input {
+  margin-bottom: 20px !important;
+}
+.single-blog .comment input:not(.form-check-input), .single-blog .comment textarea {
+  background: #f6f6f6;
+}
+.single-blog .comment .form-check-input {
+  border: 1px solid #000 !important;
+}
+.single-blog .comment .gbluebtn {
+  background: #18704c !important;
+  border-color: #18704c !important;
+  box-shadow: none !important;
+  outline: 0px !important;
+  border: 0px !important;
+}
+.single-blog .comment .gbluebtn:hover {
+  background: #000 !important;
+}/*# sourceMappingURL=singleblog.css.map */
